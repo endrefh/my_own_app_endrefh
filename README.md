@@ -1,20 +1,25 @@
 # emissions-calculator-group3
-## Section 1 - Questions for Gabriel :)
-Our Group is a bit unclear on your expectations each week. We hope to use this preliminary section of our README file to outline some of our questions. To start, I've listed our group's understanding of the weekly tasks. Could you verify or correct our understnading?
-
-### Methodology
-Each week, the methodology team is tasked with researching methods to calculate emissions for different polluting entities. The findings each week will then be built out below in this README file to outline our strategy for calculations.
-### Diary
-The Diary team will outline tasks each week under the Projects tab on github and follow along to make sure that each task is completed or on its path to completion. 
-### App Development
-Those working on app development will complete the application related exercises included in each week's youtube tutorial found on canvas under its associated [Task page](https://nhh.instructure.com/courses/1359/pages/emissions-app-calculator-module)
-
-
 Emissions DB collector for ENE425
-
 [Emission calculator](http://ene425.gabrielfuentes.org)
 
-## Section 2 - Emissions Methodology Introduction
+## Section 1
+## Ask Gabriel
+Group 3 had our first all team meeting this week and is hoping to verify your expectations from us each week. We hope to use this preliminary section of our README file to outline these questions in an effort to familiarize the team with using Github and editing the README. To start, I've listed our group's understanding of the weekly tasks. Could you verify or correct our understnading?
+
+### Question 1
+#### Methodology
+Each week, the methodology team is tasked with researching methods to calculate emissions for different polluting entities. The findings each week will then be built out below in this README file to outline our strategy for calculations.
+#### Diary
+The Diary team will outline tasks each week under the Projects tab on github and follow along to make sure that each task is completed or on its path to completion. 
+#### App Development
+Those working on app development will complete the application related exercises included in each week's youtube tutorial found on canvas under its associated [Task page](https://nhh.instructure.com/courses/1359/pages/emissions-app-calculator-module)
+
+### Question 2
+#### Our group consists of 23 people on the groups excel document, but we are currently identifying only 13 people who plan to continue with the course. Is there a plan to remedy the descrepancy or something we should do on our end?
+
+
+## Section 2
+## Emissions Methodology Introduction
 
 ### Within this section we are gathering information on emissions calculation method for transport sources:
 A basic understanding requires having a classification of transport as urban transport or industrial transport (e.g maritime, air).
