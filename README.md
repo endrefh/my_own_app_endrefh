@@ -55,3 +55,4 @@ A more segregated classification of "vehicles" under EC standards can be found a
 and alternatively fuelled vehicles through LCA"](https://ec.europa.eu/clima/sites/clima/files/transport/vehicles/docs/2020_study_main_report_en.pdf) by Ricardo Energy and Environment for the European Comission. Our observation of this study is that the segregation is practical for our purpouses, but the methodology is on a higher scale than what we are intending to do with the app (local direct emission per km rather than Life Cycle Analysis (LCA)).
 
 ## List of References
+[Global Footprint Network](https://www.footprintnetwork.org/resources/data/)
