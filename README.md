@@ -1,9 +1,6 @@
 # emissions-calculator-group3
 ## Welcome Group 3
 
-input
-
-    This is the input
 Bunker Analytics dashboard with bunker prices
 Dashboard with Mediterranean bukering statistics generated from AIS data.
 
