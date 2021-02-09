@@ -30,7 +30,7 @@ Directory Tree:
                         result.html
                         select_record.html
                         
-## Section 1
+  ## Section 1
 ## Ask Gabriel
 Group 3 had our first all team meeting this week and is hoping to verify your expectations from us each week. We hope to use this preliminary section of our README file to outline these questions in an effort to familiarize the team with using Github and editing the README. To start, I've listed our group's understanding of the weekly tasks. Could you verify or correct our understnading?
 
@@ -51,7 +51,18 @@ Those working on app development will complete the application related exercises
 Our group consists of 23 people on the groups excel document, but we are currently identifying only 13 people who plan to continue with the course. Is there a plan to remedy the descrepancy or something we should do on our end?
 > Good observation and it brought an unexpected challenge to us. As you might have noticed, some new comers have enrolled to the course and assigned to either of the groups. Also, we have noticed and been adressed by some groups that there are some enrolled students which are not going to follow up the course. To help in adressing that, we are establishing the end of the week (Feb 14th) as the deadline for enrolling into the module (task 1 and engagement within the group). So, short answer, nothing is needed on your side. Perhaps helping us spreading the info to those colleages that haven't enrolled but are expecting to continue the course. Your engagement and managing strategy have being great, so we do believe it is fair to establish some deadlines.
 
-## Section 2
+  ## Section 2
+## App Development Journal
+### Week 1 (Calendar Week 5)
+In Week 1 of development, we did our best to get everybody set up with Github and Heroku accounts as well as develop a group chat forum where we could stay connected and strategize around each week's tasks. 
+
+### Week 2 (Calendar Week 6)
+This week, the app development team copied and uploaded repository files taken from Gabriel's example repository to structure our own repository. The team also created a directory tree for our repository that is located in this README file. 
+
+### Week 3 (Calendar Week 7)
+The app dev team will dive into App Design this week as we start to learn the basics of customizing our Emissions Calculator. 
+
+  ## Section 3
 ## Emissions Methodology Introduction
 
 ### Within this section we are gathering information on emissions calculation method for transport sources:
