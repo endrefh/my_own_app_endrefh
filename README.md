@@ -62,6 +62,13 @@ This week, the app development team copied and uploaded repository files taken f
 ### Week 3 (Calendar Week 7)
 The app dev team will dive into App Design this week as we start to learn the basics of customizing our Emissions Calculator. 
 
+### Week 4 (Calendar Week 8)
+
+### Week 5 (Calendar Week 9)
+
+### Week 6 (Calendar Week 10)
+
+
   ## Section 3
 ## Emissions Methodology Introduction
 
