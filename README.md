@@ -78,7 +78,7 @@ A more segregated classification of "vehicles" under EC standards can be found a
 and alternatively fuelled vehicles through LCA"](https://ec.europa.eu/clima/sites/clima/files/transport/vehicles/docs/2020_study_main_report_en.pdf) by Ricardo Energy and Environment for the European Comission. Our observation of this study is that the segregation is practical for our purpouses, but the methodology is on a higher scale than what we are intending to do with the app (local direct emission per km rather than Life Cycle Analysis (LCA)).
 
 ### NTM Method for Emissions Calculation
-This method is developed by The Network for Transport and Environment (NTM) which is a non profit organization, initiated in 1993 and aiming at establishing a common base of values on how to calculate the environmental performance for various modes of transport[link](https://www.transportmeasures.org/en/about-ntm/). The NTM method has a high level of detail and focuses on Europe. NTM is involved with the European Committee for Standardization (CEN) in developing the European standard for emission calculation. NTM method specifies emission calculations for four types of transport: air, rail, road and water.
+This method is developed by The Network for Transport and Environment (NTM) which is a non profit organization, initiated in 1993 and aiming at establishing a common base of values on how to calculate the environmental performance for various modes of transport[link](https://www.transportmeasures.org/en/about-ntm/). NTM is involved with the European Committee for Standardization (CEN) in developing the European standard for emission calculation. NTM method specifies emission calculations for four types of transport: air, rail, road and water.
 
 #### Air Transport
 The total emission of a vessel is determined by the emission factor (constant and variable) and the distance. 
@@ -101,7 +101,7 @@ The emission factor in country z (EF<sub>e</sub><sup>z</sup>  or EF<sub>d</sub><
 Distance traveled in country z, D<sup>z</sup>, can be calculated from the EcoTransIT webpage [link](https://www.ecotransit.org/calculation.en.html).
 
 Unit emissions e<sub>e</sub> and ed (in kg) are a function of the weight of the product (w in tonne) and are calculated per country and then summed over the countries traversed:
-e<sub>e</sub> = ∑<sub>z∈Z</sub> EF<sup>z</sup> * D<sup>z</sup> * w
+e<sub>e</sub> = ∑<sub>z∈Z</sub> EF<sup>z</sup> * D<sup>z</sup> * w or
 e<sub>d</sub> = ∑<sub>z∈Z</sub> EF<sup>z</sup> * D<sup>z</sup> * w
 
 #### Road Transport
@@ -136,12 +136,10 @@ EM<sub>total</sub> = FC * D<sub>w</sub> * FE
 Unit emissions. Allocation fraction is defined as follows:
 α = unit capacity / total capacity
 The unit emissions (e<sub>w</sub> in kg) are then calculated with the following formula:
-e<sub>w</sub> = α FC x D<sub>w</sub> x FE
+e<sub>w</sub> = α * FC * D<sub>w</sub> * FE
 
 #### Assessment of the NTM Method
-
-<sub> </sub>
-
+The NTM method has a high level of detail and focuses on transport in Europe. The method defines four different types of transport and the calculations for each transport mode seem to be based on relevant factors and assumptions. However, NTM aim to create "a common base of values" on how to calculate transport emissions but is doing so onlky by taking Europe into account.
 
 ## List of References
 [Global Footprint Network](https://www.footprintnetwork.org/resources/data/)
