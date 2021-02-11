@@ -135,6 +135,7 @@ EM<sub>total</sub> = FC * D<sub>w</sub> * FE
 
 Unit emissions. Allocation fraction is defined as follows:
 α = unit capacity / total capacity
+
 The unit emissions (e<sub>w</sub> in kg) are then calculated with the following formula:
 e<sub>w</sub> = α * FC * D<sub>w</sub> * FE
 
