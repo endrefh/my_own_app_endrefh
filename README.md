@@ -96,7 +96,7 @@ The unit emissions (e<sub>a</sub> in kg) is calculated by multiplying EM<sub>tot
 e<sub>a</sub> = EM<sub>total</sub> * w<sub>d</sub> / LO<sub>max</sub> * LF
 
 #### Rail Transport
-Railway transport is distinguished into two types (1) electrical and (2) diesel. The unit emissions (ee and ed) depend on three main factors: the emission factor, the distance and the weight of the product.
+Railway transport is distinguished into two types (1) electrical and (2) diesel. The unit emissions (e<sub>e</sub> and e<sub>d</sub>) depend on three main factors: the emission factor, the distance and the weight of the product.
 
 The emission factor in country z (EF<sub>e</sub><sup>z</sup>  or EF<sub>d</sub><sup>z</sup>) is defined as the amount of CO<sub>2</sub> emitted when transporting 1 net tonne over 1km. It depends on the gross weight of the train, an emission constant, a correcting factor for the terrain, the load factor, energy efficiency factor, and a transfer loss (for electronical only).
 
