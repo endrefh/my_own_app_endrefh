@@ -119,7 +119,7 @@ Distance (D in km) is the distance between two terminals.
 
 Total emissions are then (in gram):
 
-EMe<sub>total</sub> = FE + FC x D
+EM<sub>total</sub> = FE + FC x D
 
 The unit emissions (er in g) is calculated by multiplying EM<sub>total</sub> with the physical weight of the load (w<sub>d</sub>) and divide it by the maximum load (LO<sub>max</sub>) of the vehicle times the average load factor (LF)of the vehicle:
 
@@ -132,7 +132,7 @@ Total emissions (EM<sub>total</sub> in kg) depend on three factors: fuel consump
 
 Fuel consumption (l per km) is dependent on vessel type in NTM Water for a given average load factor. 
 
-Distance (Dw) in km can be retrieved for example from the World Port Distances.
+Distance (D<sub>w</sub>) in km can be retrieved for example from the World Port Distances.
 The fuel emissions factor (FE) (kg of CO<sub>2</sub> emitted when 1l of diesel is burnt) is also required. 
 
 Total emissions (EM<sub>total</sub> in kg) is the three mentioned factors multiplied:
