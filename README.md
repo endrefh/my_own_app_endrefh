@@ -150,6 +150,12 @@ e<sub>w</sub> = α * FC * D<sub>w</sub> * FE
 #### Assessment of the NTM Method
 The NTM method has a high level of detail and focuses on transport in Europe. The method defines four different types of transport and the calculations for each transport mode seem to be based on relevant factors and assumptions. However, NTM aim to create "a common base of values" on how to calculate transport emissions but is doing so mainly by taking European transport into account.
 
+#### ARTEMIS method
+The ARTEMIS tools are the result of a large European co-operation around the pollutant emissions and energy consumption of the transports. The ARTEMIS project resulted in many important scientific results and in a unique state of the art on the topic in Europe. The main lines of the project and its results: emission measurements, principles of the modelling, street-scale approach based on the definition of traffic situations, and the resulting tools. The tools application requires detailed and reliable data describing the traffic (vehicle fleets and activity, driving conditions, etc.).
+
+#### Assessment of the ARTEMIS Method
+The ARTEMIS Method is probably to advanced for the type of app we are aiming to create.  
+ 
 ## List of References
 [Global Footprint Network](https://www.footprintnetwork.org/resources/data/)
 [Effect of Carbon Emission Regulations on Transport Mode Selection in Supply Chains](https://pdfs.semanticscholar.org/a96a/9108170e8e5f3e6b23ac990a89834248af56.pdf?fbclid=IwAR2-aMr7AEeU8UZ1XI2i08Sy5AtgsXtfu3KZHh_k4n8fFb0mNt23PZ-DZjE)
