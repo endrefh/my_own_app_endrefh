@@ -77,5 +77,35 @@ A basic understanding requires having a classification of transport as urban tra
 A more segregated classification of "vehicles" under EC standards can be found at this [link](https://www.eafo.eu/knowledge-center/european-vehicle-categories), which is connected to the last study of ["Determining the environmental impacts of conventional
 and alternatively fuelled vehicles through LCA"](https://ec.europa.eu/clima/sites/clima/files/transport/vehicles/docs/2020_study_main_report_en.pdf) by Ricardo Energy and Environment for the European Comission. Our observation of this study is that the segregation is practical for our purpouses, but the methodology is on a higher scale than what we are intending to do with the app (local direct emission per km rather than Life Cycle Analysis (LCA)).
 
+### NTM Method for Emission Calculation
+This method has a high level of detail and focuses on Europe. NTM is involved with the European Committee for Standardization (CEN) in developing the European standard for emission calculation (NTM). NTM method specifies emission calculations for four types of transport: air, rail, road and water.
+
+#### Air Transport
+The total emission of a vessel is determined by the emission factor (constant and variable) and the distance. 
+
+The emission factor consists of (1) the constant emission factor (CEF in kg) which is for emissions during take-off and landing, and (2) the variable emission factor (VEF in kg/km) which is linear in the flight distance. The emission factors are specific for the aircraft type, engine type and maximum load. The load factor is defined as the actual weight of the load versus the maximum load.
+
+Distance is calculated by the same method used by the International Civil Aviation Organization (ICAO). The flight distance (Da  in km) is calculated by using the great-circle distance formula which calculates the shortest distance between two locations by taking the bend of the earth into account. 
+
+Total emissions for an aircraft is then given by:
+EMtotal = CEF + VEF * Da
+
+The unit emissions (ea in kg) is calculated by multiplying EMtotal with the physical weight of the load (wd) and divide it by the maximum load (LOmax) of the aircraft times the average load factor (LF): 
+ea = EMtotal * wd / LOmax * LF
+
+#### Rail Transport
+Railway transport is distinguished into two types (1) electrical and (2) diesel. The unit emissions (ee and ed) depend on three main factors: the emission factor, the distance and the weight of the product.
+
+The emission factor in country z (EFez  or EFdz) is defined as the amount of CO2 emitted when transporting 1 net tonne over 1km. It depends on the gross weight of the train, an emission constant, a correcting factor for the terrain, the load factor, energy efficiency factor, and a transfer loss (for electronical only).
+
+Distance traveled in country z, Dz, can be calculated from the EcoTransIT webpage [link](https://www.ecotransit.org/calculation.en.html).
+
+Unit emissions ee and ed (in kg) are a function of the weight of the product (w in tonne) and are calculated per country and then summed over the countries traversed:
+e<sub>e</sub> = ∑<sub>z∈Z</sub> EF<sup>z</sup> D<sub>z</sub> w
+
+#### Road Transport
+
+#### Water Transport
+
 ## List of References
 [Global Footprint Network](https://www.footprintnetwork.org/resources/data/)
