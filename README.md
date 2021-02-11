@@ -148,7 +148,7 @@ The unit emissions (e<sub>w</sub> in kg) are then calculated with the following 
 e<sub>w</sub> = α * FC * D<sub>w</sub> * FE
 
 #### Assessment of the NTM Method
-The NTM method has a high level of detail and focuses on transport in Europe. The method defines four different types of transport and the calculations for each transport mode seem to be based on relevant factors and assumptions. However, NTM aim to create "a common base of values" on how to calculate transport emissions but is doing so onlky by taking Europe into account.
+The NTM method has a high level of detail and focuses on transport in Europe. The method defines four different types of transport and the calculations for each transport mode seem to be based on relevant factors and assumptions. However, NTM aim to create "a common base of values" on how to calculate transport emissions but is doing so mainly by taking European transport into account.
 
 ## List of References
 [Global Footprint Network](https://www.footprintnetwork.org/resources/data/)
