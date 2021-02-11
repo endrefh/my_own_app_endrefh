@@ -154,8 +154,25 @@ The NTM method has a high level of detail and focuses on transport in Europe. Th
 The ARTEMIS tools are the result of a large European co-operation around the pollutant emissions and energy consumption of the transports. The ARTEMIS project resulted in many important scientific results and in a unique state of the art on the topic in Europe. The main lines of the project and its results: emission measurements, principles of the modelling, street-scale approach based on the definition of traffic situations, and the resulting tools. The tools application requires detailed and reliable data describing the traffic (vehicle fleets and activity, driving conditions, etc.). [link](https://www3.epa.gov/ttnchie1/conference/ei18/session6/andre.pdf)
 
 #### Assessment of the ARTEMIS Method
-The ARTEMIS Method is probably to advanced for the type of app we are aiming to create.  
+The ARTEMIS Method is probably to advanced for the type of app we are aiming to create. 
+
+#### Method to calculate air traveling
+ICAO is an international organization under the UN umbrella. They have among other things created a flight emissions calculator. 
+Summary of the methodology the use:
+CO2 Emissions per passenger take into consideration the load factor and are based only on passenger operations (i.e. fuel burn associated with belly freight is not considered). The steps for the estimation of CO2 emissions per passenger:
+
+Step 1: Estimation of the aircraft fuel burn
+
+Step 2: Calculation of the passengers' fuel burn based on a passenger/freight factor which is derived from RTK data
+
+Step 3: Calculation of seats occupied (assumption: all aircraft are entirely configured with economic seats). Seat occupied = Total seats * Load Factor
+
+Step 4: CO2 emissions per passenger = (Passengers' fuel burn * 3.16) / Seat occupied
+
+Note: for flights above 3000 km, CO2 emissions per passenger in premium cabin = 2 x CO2 emissions per passenger in economy [link](https://www.icao.int/environmental-protection/Carbonoffset/Pages/default.aspx)
+
  
 ## List of References
 [Global Footprint Network](https://www.footprintnetwork.org/resources/data/)
+
 [Effect of Carbon Emission Regulations on Transport Mode Selection in Supply Chains](https://pdfs.semanticscholar.org/a96a/9108170e8e5f3e6b23ac990a89834248af56.pdf?fbclid=IwAR2-aMr7AEeU8UZ1XI2i08Sy5AtgsXtfu3KZHh_k4n8fFb0mNt23PZ-DZjE)
