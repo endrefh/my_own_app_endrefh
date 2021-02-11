@@ -102,7 +102,7 @@ The emission factor in country z (EF<sub>e</sub><sup>z</sup>  or EF<sub>d</sub><
 
 Distance traveled in country z, D<sup>z</sup>, can be calculated from the EcoTransIT webpage [link](https://www.ecotransit.org/calculation.en.html).
 
-Unit emissions e<sub>e</sub> and ed (in kg) are a function of the weight of the product (w in tonne) and are calculated per country and then summed over the countries traversed:
+Unit emissions e<sub>e</sub> and e<sub>d</sub> (in kg) are a function of the weight of the product (w in tonne) and are calculated per country and then summed over the countries traversed:
 
 e<sub>e</sub> = ∑<sub>z∈Z</sub> EF<sup>z</sup> * D<sup>z</sup> * w
 
