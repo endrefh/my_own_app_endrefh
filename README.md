@@ -156,8 +156,8 @@ The ARTEMIS tools are the result of a large European co-operation around the pol
 #### Assessment of the ARTEMIS Method
 The ARTEMIS Method is probably to advanced for the type of app we are aiming to create. 
 
-#### Method to calculate air traveling
-ICAO is an international organization under the UN umbrella. They have among other things created a flight emissions calculator. 
+#### A specific method to calculate air traveling emissions
+ICAO is a UN specialised agency. They have among other things created a flight emissions calculator. 
 Summary of the methodology the use:
 CO2 Emissions per passenger take into consideration the load factor and are based only on passenger operations (i.e. fuel burn associated with belly freight is not considered). The steps for the estimation of CO2 emissions per passenger:
 
