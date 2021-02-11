@@ -88,7 +88,7 @@ The emission factor consists of (1) the constant emission factor (CEF in kg) whi
 Distance is calculated by the same method used by the International Civil Aviation Organization (ICAO). The flight distance (D<sub>a</sub> in km) is calculated by using the great-circle distance formula which calculates the shortest distance between two locations by taking the bend of the earth into account. 
 
 Total emissions for an aircraft is then given by:
-EMtotal = CEF + VEF * Da
+EMtotal = CEF + VEF * D<sub>a</sub>
 
 The unit emissions (e<sub>a</sub> in kg) is calculated by multiplying EM<sub>total</sub> with the physical weight of the load (w<sub>d</sub>) and divide it by the maximum load (LO<sub>max</sub>) of the aircraft times the average load factor (LF): 
 e<sub>a</sub> = EM<sub>total</sub> * w<sub>d</sub> / LO<sub>max</sub> * LF
