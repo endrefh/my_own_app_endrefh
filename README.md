@@ -104,7 +104,7 @@ Distance traveled in country z, D<sup>z</sup>, can be calculated from the EcoTra
 
 Unit emissions e<sub>e</sub> and ed (in kg) are a function of the weight of the product (w in tonne) and are calculated per country and then summed over the countries traversed:
 
-e<sub>e</sub> = ∑<sub>z∈Z</sub> EF<sup>z</sup> * D<sup>z</sup> * w or
+e<sub>e</sub> = ∑<sub>z∈Z</sub> EF<sup>z</sup> * D<sup>z</sup> * w
 
 e<sub>d</sub> = ∑<sub>z∈Z</sub> EF<sup>z</sup> * D<sup>z</sup> * w
 
