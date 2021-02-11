@@ -171,21 +171,21 @@ Step 4: CO2 emissions per passenger = (Passengers' fuel burn * 3.16) / Seat occu
 
 Note: for flights above 3000 km, CO2 emissions per passenger in premium cabin = 2 x CO2 emissions per passenger in economy [link](https://www.icao.int/environmental-protection/Carbonoffset/Pages/default.aspx)
 
-#### GHG Protocol
+### GHG Protocol
 GHG Protocol establishes comprehensive global standardized frameworks to measure and manage greenhouse gas (GHG) emissions from private and public sector operations, value chains and mitigation actions. GHG protocol is mainly used by private subjects such as companies and organization as well as by public entities countries and cities. The idea of establishing an international standard for global accounting was born in the late 1990s, but it is only in 2001 that the first edition of the Corporate Standard was published. The GHG protocol was additionally updated after the Paris Agreement in 2015. The GHG protocol provides tools as well as standardized guidelines for emission accounting.
 
-## Corporate standard
+#### Corporate standard
 The standard covers the accounting and reporting of seven greenhouse gases covered by the Kyoto Protocol – carbon dioxide (CO2), methane (CH4), nitrous oxide (N2O), hydrofluorocarbons (HFCs), perfluorocarbons (PCFs), sulphur hexafluoride (SF6) and nitrogen trifluoride (NF3). It was updated in 2015 with the Scope 2 Guidance, which allows companies to credibly measure and report emissions from purchased or acquired electricity, steam, heat, and cooling. There are two categories of tool used:
 
-  ## Cross-sector tools
+  ##### Cross-sector tools
   Applicable to many industries and businesses regardless of sector. The one useful for our research topic could be the Mobile Combustion tool that calculates direct and  
   indirect CO2 emissions from fuel combustion in mobile sources. It also provides calculations and emission factors for road, air, water, and rail transport. Excel tables for
   using a certain tool are available on GHG Protocol website.
   
-  ## Sector specific tools
+  ##### Sector specific tools
   Principally designed for the specific sector or industry listed, though they may be applicable to other situations.
 
-## Protocol for cities
+#### Protocol for cities
 GHG Protocol is working to give cities the standards and tools they need to measure their emissions, build more effective emissions reduction strategies, set measurable and more ambitious emission reduction goals, and to track their progress more accurately and comprehensively.
 
 The GHG Protocol seems not to be the best choice for our research because it focus on private or public actors, it is designed for corporate and national emission accounting.
