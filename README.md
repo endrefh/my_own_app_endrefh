@@ -88,9 +88,11 @@ The emission factor consists of (1) the constant emission factor (CEF in kg) whi
 Distance is calculated by the same method used by the International Civil Aviation Organization (ICAO). The flight distance (D<sub>a</sub> in km) is calculated by using the great-circle distance formula which calculates the shortest distance between two locations by taking the bend of the earth into account. 
 
 Total emissions for an aircraft is then given by:
-EMtotal = CEF + VEF * D<sub>a</sub>
+
+EM<sub>total</sub> = CEF + VEF * D<sub>a</sub>
 
 The unit emissions (e<sub>a</sub> in kg) is calculated by multiplying EM<sub>total</sub> with the physical weight of the load (w<sub>d</sub>) and divide it by the maximum load (LO<sub>max</sub>) of the aircraft times the average load factor (LF): 
+
 e<sub>a</sub> = EM<sub>total</sub> * w<sub>d</sub> / LO<sub>max</sub> * LF
 
 #### Rail Transport
@@ -101,7 +103,9 @@ The emission factor in country z (EF<sub>e</sub><sup>z</sup>  or EF<sub>d</sub><
 Distance traveled in country z, D<sup>z</sup>, can be calculated from the EcoTransIT webpage [link](https://www.ecotransit.org/calculation.en.html).
 
 Unit emissions e<sub>e</sub> and ed (in kg) are a function of the weight of the product (w in tonne) and are calculated per country and then summed over the countries traversed:
+
 e<sub>e</sub> = ∑<sub>z∈Z</sub> EF<sup>z</sup> * D<sup>z</sup> * w or
+
 e<sub>d</sub> = ∑<sub>z∈Z</sub> EF<sup>z</sup> * D<sup>z</sup> * w
 
 #### Road Transport
@@ -114,9 +118,11 @@ The Fuel Emissions factor (FE) is defined as gram of CO<sub>2</sub> emitted per 
 Distance (D in km) is the distance between two terminals. 
 
 Total emissions are then (in gram):
+
 EMe<sub>total</sub> = FE + FC x D
 
 The unit emissions (er in g) is calculated by multiplying EM<sub>total</sub> with the physical weight of the load (w<sub>d</sub>) and divide it by the maximum load (LO<sub>max</sub>) of the vehicle times the average load factor (LF)of the vehicle:
+
 e<sub>r</sub> = EMe<sub>total</sub> * w<sub>d</sub> / LO<sub>max</sub> * LF
 
 #### Water Transport
@@ -129,14 +135,16 @@ Fuel consumption (l per km) is dependent on vessel type in NTM Water for a given
 Distance (Dw) in km can be retrieved for example from the World Port Distances.
 The fuel emissions factor (FE) (kg of CO<sub>2</sub> emitted when 1l of diesel is burnt) is also required. 
 
-Total emissions (EM<sub>total</sub> in kg) is the three mentioned factors multiplied.
+Total emissions (EM<sub>total</sub> in kg) is the three mentioned factors multiplied:
 
 EM<sub>total</sub> = FC * D<sub>w</sub> * FE
 
 Unit emissions. Allocation fraction is defined as follows:
+
 α = unit capacity / total capacity
 
 The unit emissions (e<sub>w</sub> in kg) are then calculated with the following formula:
+
 e<sub>w</sub> = α * FC * D<sub>w</sub> * FE
 
 #### Assessment of the NTM Method
