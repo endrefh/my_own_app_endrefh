@@ -177,12 +177,12 @@ GHG Protocol establishes comprehensive global standardized frameworks to measure
 #### Corporate standard
 The standard covers the accounting and reporting of seven greenhouse gases covered by the Kyoto Protocol – carbon dioxide (CO2), methane (CH4), nitrous oxide (N2O), hydrofluorocarbons (HFCs), perfluorocarbons (PCFs), sulphur hexafluoride (SF6) and nitrogen trifluoride (NF3). It was updated in 2015 with the Scope 2 Guidance, which allows companies to credibly measure and report emissions from purchased or acquired electricity, steam, heat, and cooling. There are two categories of tool used:
 
-  ##### + Cross-sector tools
+  ##### Cross-sector tools
   Applicable to many industries and businesses regardless of sector. The one useful for our research topic could be the Mobile Combustion tool that calculates direct and  
   indirect CO2 emissions from fuel combustion in mobile sources. It also provides calculations and emission factors for road, air, water, and rail transport. Excel tables for
   using a certain tool are available on GHG Protocol website.
   
-  ##### + Sector specific tools
+  ##### Sector specific tools
   Principally designed for the specific sector or industry listed, though they may be applicable to other situations.
 
 #### Protocol for cities
@@ -196,11 +196,11 @@ EcoTransIT World is the most widely used software worldwide to automate the calc
 #### Methodology
 The ETW considers all emissions directly caused by the operation of vehicles and the final energy consumption are taken into account. Additionally, all emissions and the energy consumption of the generation of final energy (fuels electricity) are included. Two process steps and the sum of both are distinguished.
 
-  ##### + Upstream energy consumption and upstream emissions (= energy provision, production and distribution; Well-to-Tank WTT)
+  + Upstream energy consumption and upstream emissions (= energy provision, production and distribution; Well-to-Tank WTT)
   It includes energy provision, production and distribution: extraction and generation, refineries and power plants and energy distribution. 
-  ##### + Final energy consumption and vehicle emissions (= operation; Tank-toWheels TTW)
+  + Final energy consumption and vehicle emissions (= operation; Tank-toWheels TTW)
   It accounts for the actual consumption of energy for transport operations.
-  ##### + Total energy consumption and total emissions: Sum of operation and upstream figures (Well-to-Wheels WTW).
+  + Total energy consumption and total emissions: Sum of operation and upstream figures (Well-to-Wheels WTW).
   It is basically a sum of the the two previous steps, accounting for the entire process.
   
 The ETW does not account for energy related to the construction of infrastructer and vehicles.
