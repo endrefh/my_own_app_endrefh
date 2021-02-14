@@ -190,10 +190,47 @@ GHG Protocol is working to give cities the standards and tools they need to meas
 
 The GHG Protocol seems not to be the best choice for our research because it focus on private or public actors, it is designed for corporate and national emission accounting.
   
- 
+### EcoTransIT
+EcoTransIT World is the most widely used software worldwide to automate the calculation and analysis of energy consumption and freight emissions.ETW allows calculation of complete transport chains across all modes of transport (truck, train, ocean vessel, inland waterways, aircraft) including transhipments / warehousing worldwide on the basis of a scientific and neutral methodology. This makes ETW equally usable for logistics service providers (LSP), carriers, shippers as well as software providers, consulting companies and other related organisations. ETW calculates the transport distances, energy consumption, greenhouse gases CO2 and CO2 equivalents as well as air pollutants SOx , NOx, NMHC and PM10 for any global transport chain.
+
+#### Methodology
+The ETW considers all emissions directly caused by the operation of vehicles and the final energy consumption are taken into account. Additionally, all emissions and the energy consumption of the generation of final energy (fuels electricity) are included. Two process steps and the sum of both are distinguished.
+
+  ##### Upstream energy consumption and upstream emissions (= energy provision, production and distribution; Well-to-Tank WTT)
+  It includes energy provision, production and distribution: extraction and generation, refineries and power plants and energy distribution. 
+  ##### Final energy consumption and vehicle emissions (= operation; Tank-toWheels TTW)
+  It accounts for the actual consumption of energy for transport operations.
+  ##### Total energy consumption and total emissions: Sum of operation and upstream figures (Well-to-Wheels WTW).
+  It is basically a sum of the the two previous steps, accounting for the entire process.
+  
+The ETW does not account for energy related to the construction of infrastructer and vehicles.
+
+#### Which transports are calculated?
+Basically, all modes of transports are calculated, clustered into:
+• Air freight – different aircraft types and sizes
+• Ocean freight – container shipping, bulk shipping and liquids
+• Inland ship freight – different ship types
+• Road freight – truck types aggregated into size classes and emission standards, including/excluding ferry shares
+• Rail freight – different rail sizes and types and emission standards 
+
+#### Energy consumption allocated and calculated for a single shipment
+The basic principle of calculation relies on the metric weight of the shipment and the distance travelled (tkm).
+
+The principal calculation rule for the calculation of vehicle emissions is
+WTW energy consumption or emissions per transport = Transport Distance * mass of freight transported * (TTW energy consumption or vehicle emissions per net tonne km
++ WTT energy consumption or emissions per net tonne km)
+
+The corresponding formulas are
+EMTi = Di* M* (EMVtkm,i + EMUtkm,i)
+ECTi = Di* M* (ECFtkm,i + ECUtkm,i) 
+
+ETW is mainly used to account emissions for commercial transportation, but it could be also used to account for emissions produced by a single consumer.
+
 ## List of References
 [Global Footprint Network](https://www.footprintnetwork.org/resources/data/)
 
 [Effect of Carbon Emission Regulations on Transport Mode Selection in Supply Chains](https://pdfs.semanticscholar.org/a96a/9108170e8e5f3e6b23ac990a89834248af56.pdf?fbclid=IwAR2-aMr7AEeU8UZ1XI2i08Sy5AtgsXtfu3KZHh_k4n8fFb0mNt23PZ-DZjE)
 
 [GHG Protocol](https://ghgprotocol.org/)
+
+[EcoTransIT](https://www.ecotransit.org/methodology.en.html)
