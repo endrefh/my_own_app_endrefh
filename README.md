@@ -207,18 +207,17 @@ The ETW does not account for energy related to the construction of infrastructer
 
 #### Which transports are calculated?
 Basically, all modes of transports are calculated, clustered into:
-• Air freight – different aircraft types and sizes
-• Ocean freight – container shipping, bulk shipping and liquids
-• Inland ship freight – different ship types
-• Road freight – truck types aggregated into size classes and emission standards, including/excluding ferry shares
-• Rail freight – different rail sizes and types and emission standards 
++ Air freight – different aircraft types and sizes
++ Ocean freight – container shipping, bulk shipping and liquids
++ Inland ship freight – different ship types
++ Road freight – truck types aggregated into size classes and emission standards, including/excluding ferry shares
++ Rail freight – different rail sizes and types and emission standards 
 
 #### Energy consumption allocated and calculated for a single shipment
 The basic principle of calculation relies on the metric weight of the shipment and the distance travelled (tkm).
 
 The principal calculation rule for the calculation of vehicle emissions is
-WTW energy consumption or emissions per transport = Transport Distance * mass of freight transported * (TTW energy consumption or vehicle emissions per net tonne km
-+ WTT energy consumption or emissions per net tonne km)
+WTW energy consumption or emissions per transport = Transport Distance * mass of freight transported * (TTW energy consumption or vehicle emissions per net tonne km +WTT energy consumption or emissions per net tonne km)
 
 The corresponding formulas are
 EMTi = Di* M* (EMVtkm,i + EMUtkm,i)
