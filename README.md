@@ -60,7 +60,39 @@ In Week 1 of development, we did our best to get everybody set up with Github an
 This week, the app development team copied and uploaded repository files taken from Gabriel's example repository to structure our own repository. The team also created a directory tree for our repository that is located in this README file. 
 
 ### Week 3 (Calendar Week 7)
-The app dev team will dive into App Design this week as we start to learn the basics of customizing our Emissions Calculator. 
+The app dev team have worked with the design of the app and changed colors and text in the right files within the template folders.
+
+#### Design suggestions and proposals:
+
+**Color suggestions:**
+
+    05B384 (Mint)
+    388697 (Metallic Seaweed)
+    E9EDEB (Platinum)
+
+Another suggestion is to apply colors from the UN Sustainable Development Goals, especially from the relevant goals:
+
+    #7 Affordable and clean energy: fbc412
+    #11 Sustainable cities and communities: f89d2a
+    #13 Climate action: 407f46
+    #14 Life under water: 1f97d4
+    #15 Life on land: 59ba47
+
+<img src="notes/UN SDG colors.png" width="400" height="150"/>
+
+**Design proposals:**
+
+Below are some screenshots from a website that calculates people's overall crabon footprint. The website, called 
+Ducky, contains great inspirations for our website when it comes to colors, design and layput.
+
+
+<img src="notes/Example Ducky home page.png" width="500" height="300"/>
+
+Above: Screenshot of Ducky's start page. Very minimalistic and clean.
+
+<img src="notes/Example Ducky 1.png" width="400" height="400"/>
+
+<img src="notes/Example Ducky graph.png" width="500" height="250"/>
 
 ### Week 4 (Calendar Week 8)
 
