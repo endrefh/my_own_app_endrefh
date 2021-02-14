@@ -220,8 +220,9 @@ The principal calculation rule for the calculation of vehicle emissions is
 WTW energy consumption or emissions per transport = Transport Distance * mass of freight transported * (TTW energy consumption or vehicle emissions per net tonne km +WTT energy consumption or emissions per net tonne km)
 
 The corresponding formulas are
-EMTi = Di* M* (EMVtkm,i + EMUtkm,i)
-ECTi = Di* M* (ECFtkm,i + ECUtkm,i) 
+
++ EMTi = Di* M* (EMVtkm,i + EMUtkm,i)
++ ECTi = Di* M* (ECFtkm,i + ECUtkm,i) 
 
 ETW is mainly used to account emissions for commercial transportation, but it could be also used to account for emissions produced by a single consumer.
 
