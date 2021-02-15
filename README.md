@@ -82,7 +82,7 @@ Another suggestion is to apply colors from the UN Sustainable Development Goals,
 
 **Design proposals:**
 
-Below are some screenshots from a website that calculates people's overall crabon footprint. The website, called 
+Below are some screenshots from a website that calculates people's overall carbon footprint. The website, called 
 Ducky, contains great inspirations for our website when it comes to colors, design and layput.
 
 
