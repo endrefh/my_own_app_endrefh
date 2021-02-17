@@ -95,6 +95,23 @@ Above: Screenshot of Ducky's start page. Very minimalistic and clean.
 <img src="notes/Example Ducky graph.png" width="500" height="250"/>
 
 ### Week 4 (Calendar Week 8)
+The main goal for this week is to make sure that the app is up and running. To do this the app development team will connect our Github repository to Heroku. Earlier this week Gabriel invited the people in group 3 to a Heroku Team called “group 3” where the Heroku part of the work will be done from now in. We had one person in the group responsible for this week´s task, as only one app environment is needed within the group. This is what was done:
+
+1. Sync a database to Heroku app: The first thing we did was to create an app environment within our group. We created this app environment by clicking on “create new app” and named it: “…”. After this we added an add-on called Heroku Postgres (the free version).
+2. Sync your Github repo with a cloud machinery: To do this we clicked on “deploy”. Then we clicked on the deployment method “Connect to Github”. Then we added our repository by clicking on our file “ENE425-Group3”. We named it “emissions-calculator-group3” and clicked connect. Now that it was connected, we needed to set up some additional options. We enabled automatic deploys, which detects when something changes in the repo in the Github account that we synced, and then makes the changes in the app in Heroku as well. After this we deployed branch manually. Finally, the app was up and running.
+3. Define your environmental variables and use it as a first stage security measure: To do this we clicked settings -> reveal configuration variables. Then we added 3 environmental variables: DATABASE_URL, EXTERNAL_DB and GROUP_NAME. These variables are about security. There are passwords for these variables, but these will not be posted here in the readme file for security reasons. We will learn more about these passwords next week.
+4. Heroku basic functions: The most important for now was to avoid to change anything in the “resources” section.
+
+Next week we should start to collect information in our app (submit transportation records).
+
+We also got two question to answer this week:
+Question 1. What other cloud service can be used to deploy apps from github repo’s?
+- Answer: Another cloud service that could be used is Microsoft Azure, which is an open, flexible cloud platform that enables you to quickly build, deploy and manage applications. Another one is AWS (Amazon Web Services) where you can build, deploy, and manage websites, apps or processes. The last one we will mention is Netlify, where you also can build, deploy and host your projects (most suited for front-end).
+
+Question 2: What options would you consider to make your app safer against attacks? 
+- Answer: Be really careful regarding where you post/insert your passwords is one relevant thing. Never send your passwords online to other users in channels like facebook, whatsapp etc. In these channels they are not well protected and can be found by hackers.
+- More ideas?...
+
 
 ### Week 5 (Calendar Week 9)
 
