@@ -275,6 +275,21 @@ The corresponding formulas are
 
 ETW is mainly used to account emissions for commercial transportation, but it could be also used to account for emissions produced by a single consumer.
 
+### USEPA Calculator
+The USEPA has created an excel based tool to estimate your carbon footprint based on household vehicles, home energy, and waste. It also provides a section of recommendations for ways in which you can reduce your footprint. 
+
+The tool relies heavily on averages, specifically US averages, but gives the user options to input actual data including actual car mileage and your vehicle's mpg fuel efficiency. 
+
+This tool can be a great resource to understand calculations behind their primary data point, pounds of CO2 emissions per year. It also provides us with a number of assupmtions to consider as we build our tool further. 
+
+Calulating emissions from cars - (number of miles driven per week for vehicle #1 * weeks in a year) / average household fuel efficiency of vehicle #1 * pounds of CO2 emitted per gallon * emissions of greenhouse gases other than CO2)
+
+Assumptions from passenger cars:
+
++ Pounds of CO2 emitted per gallon of gasoline : 19.6 lbCO2/gallon
++ Ratio of other GHG emissions to CO2 : 1.01 lbCO2e/lbCO2
+
+
 ## List of References
 [Global Footprint Network](https://www.footprintnetwork.org/resources/data/)
 
@@ -283,3 +298,6 @@ ETW is mainly used to account emissions for commercial transportation, but it co
 [GHG Protocol](https://ghgprotocol.org/)
 
 [EcoTransIT](https://www.ecotransit.org/methodology.en.html)
+
+[USEPA Calculator](https://www3.epa.gov/carbon-footprint-calculator/#:~:text=You%20can%20get%20a%20quick,by%20using%20U.S.%20average%20values.&text=For%20a%20more%20accurate%20estimate,average%20use%20over%20a%20year.)
+
