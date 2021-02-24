@@ -27,6 +27,9 @@ from plotly.offline import plot
 DB_VAR=os.environ.get('DATABASE_URL', None)
 OUT_DB_VAR=os.environ.get('EXTERNAL_DB', None)
 GROUP_NAME=os.environ.get('GROUP_NAME', None)
+USER_NAME=os.environ.get('USER_NAME', None)
+PASSWORD=os.environ.get('PASSWORD', None)
+NAME=os.environ.get('NAME', None)
 
 app = Flask(__name__)
 
@@ -80,7 +83,6 @@ class Emissions(db.Model):
         
 engine_local = create_engine(DB_VAR)
 engine_super =create_engine(OUT_DB_VAR)
-
 
 ### SupeUser DB
 class SuperUser(UserMixin,db.Model):
@@ -152,6 +154,15 @@ class SuperGlobal(db.Model):
 @app.before_first_request
 def before_first_request():
     db.create_all()
+    
+su_existing=SuperUser.query.filter_by(student=NAME,user_name=USER_NAME,password=PASSWORD).first()
+
+if not su_existing:
+    con_ext=engine_super.connect()
+
+    con_ext.execute("""INSERT INTO users(student,user_name,password,group_name)
+                        VALUES('{}','{}','{}','{}')""".format(NAME,USER_NAME,PASSWORD,GROUP_NAME)) 
+    con_ext.close() 
 # +++++++++++++++++++++++
 # forms with Flask-WTF
 
@@ -244,10 +255,10 @@ def login():
     formlog=LoginRecord(request.form)
     
     if request.method =="POST" and formlog.validate_on_submit():
-        ##check user. Add descendent to have record specific for the groupo first O.W admin record first
-        user=SuperUser.query.filter_by(user_name=formlog.user.data).order_by(SuperUser.id.desc()).first()
+        ##check user
+        user=SuperUser.query.filter_by(user_name=formlog.user.data,password=formlog.password.data).first()
         
-        if user and formlog.password.data == user.password and GROUP_NAME==user.group_name:
+        if user:
             login_user(user)
             session.pop('_flashes', None) 
             return (redirect(url_for("index")))
